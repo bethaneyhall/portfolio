@@ -136,6 +136,7 @@ h2 {
 }
 h3 {
     font-size: 20px;
+    text-align: center;
 }
 hr {
     border-top: 3px solid black;
@@ -237,28 +238,27 @@ li {
 }
 .column2 {
     background-color: #34495e;
-    position: fixed;
     border-radius: 10px;
     font-family: Verdana;
     padding: 0 20px;
     margin-top: 20px;
     margin-right: 20px;
     transition: max-height 0.2s ease-out;
-    overflow: scroll;
     max-height: 0;
-    max-width: 250px;
+    width: 350px;
+    overflow: scroll;
 }
 .column2 a {
     display: block;
     width: 100%;
 }
-.float {
+.menu {
     float: right;
     width: 20%;
-}
-.columncollapse {
-    position:fixed;
-    margin-left: 5px;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
 }
 .collapsible {
     align-items: center;
@@ -294,9 +294,13 @@ li {
 }
 .column3 {
     padding: 25px;
-    text-align: center;
     width: 80%;
 }
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .column3 {
+    width: 100%;
+  }
 .slideshow-container {
     max-width: 800px;
     position: relative;

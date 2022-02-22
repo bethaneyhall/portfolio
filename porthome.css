@@ -248,8 +248,13 @@ li {
     max-height: 0;
     max-width: 250px;
 }
+.column2 a {
+    display: block;
+    width: 100%;
+}
 .float {
     float: right;
+    width: 20%;
 }
 .columncollapse {
     position:fixed;
@@ -288,8 +293,9 @@ li {
     transform: translateY(2px);
 }
 .column3 {
-    padding: 50px;
+    padding: 25px;
     text-align: center;
+    width: 80%;
 }
 .slideshow-container {
     max-width: 800px;

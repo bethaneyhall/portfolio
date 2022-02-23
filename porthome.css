@@ -37,21 +37,6 @@ img {
     height: auto;
     width: auto;
 }
-.libguides {
-    width: 1000px;
-    max-width: auto;
-    max-height: auto;
-    height: 100px;
-    border: 7px solid;
-    border-left-color: #a8d3e6;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-bottom-style: hidden;
-    border-left-style: solid;
-    margin: 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .direct {
     background-color: #ac4a4a;
     border-radius: 20px;
@@ -127,12 +112,13 @@ p.blocktext {
 }
 h1 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
     padding-top: 5px;
     margin: 0;
 }
 h2 {
     font-size: 25px;
+    text-align: center;
 }
 h3 {
     font-size: 20px;
@@ -296,30 +282,77 @@ li {
     padding: 25px;
     width: 80%;
 }
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .column3 {
-    width: 100%;
-  }
-.slideshow-container {
+.display-container {
     max-width: 800px;
     position: relative;
     margin: auto;
 }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position "next button" to right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: gray;
+  color: lightblue;
+}
+
+.numbertext {
+  color: lightblue;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 5px 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: lightblue;
+}
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 12px}
+.mySlides {
+    display: none;
 }

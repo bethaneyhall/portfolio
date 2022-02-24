@@ -135,7 +135,7 @@ hr {
 }
 p {
   font-family: monospace;
-  font-size: 22px;
+  font-size: 18px;
 }
 nav {
 	margin: 25px auto;
@@ -377,5 +377,6 @@ li {
 @media only screen and (max-width: 768px) {
     [class*="menu"] {
         width: 100%;
+        position: static;
     }
 }

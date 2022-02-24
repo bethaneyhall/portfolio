@@ -6,7 +6,7 @@ body {
     color: white;
     background-color: black;
     margin: auto;
-    max-width: 960px;
+    max-width: 1100px;
     align-content: center;
 }
 footer {
@@ -79,7 +79,7 @@ img {
     background-color: whitesmoke;
     color: black;
 }
-.download {
+.downloadguide {
     background-color: #866bc1;
     font-size: 17px;
     font-family: verdana;
@@ -90,10 +90,34 @@ img {
     box-shadow: -3px 3px 0 grey;
     padding-top: 5px;
     padding-bottom: 5px;
-    height: 50px;
+    height: auto;
     width: 700px;
+    max-width: 100%;
 }
-.download:hover {
+.downloadguide:hover {
+    top: 3px;
+    left: -3px;
+    box-shadow: -1px 1px 0 grey;
+    cursor: grab;
+    transform: translateY(2px);
+}
+.downloadresume {
+    background-color: mediumpurple;
+    font-size: 15px;
+    font-family: verdana;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    box-shadow: -3px 3px 0 grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.downloadresume:hover {
     top: 3px;
     left: -3px;
     box-shadow: -1px 1px 0 grey;
@@ -102,10 +126,15 @@ img {
 }
 iframe {
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .iframe {
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
 }
 p.blocktext {
     margin-left: auto;
@@ -114,16 +143,17 @@ p.blocktext {
 }
 h1 {
 	text-align: center;
-	font-size: 35px;
+	font-size: 30pt;
     padding-top: 5px;
     margin: 0;
 }
 h2 {
-    font-size: 25px;
+    font-size: 20pt;
     text-align: center;
+    color: lightblue;
 }
 h3 {
-    font-size: 20px;
+    font-size: 19pt;
     text-align: center;
     color: lightblue;
 }
@@ -134,8 +164,12 @@ hr {
     display: block;
 }
 p {
-  font-family: monospace;
-  font-size: 18px;
+    font-family: monospace;
+    font-size: 17pt;
+    line-height: 1.5;
+}
+ul {
+    font-size: 16pt;
 }
 nav {
 	margin: 25px auto;
@@ -235,7 +269,7 @@ li {
     max-height: 0;
     width: 350px;
     overflow: scroll;
-    font-size: 20px;
+    font-size: 18px;
 }
 .column2 a {
     display: block;

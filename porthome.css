@@ -81,7 +81,7 @@ img {
 }
 .download {
     background-color: #866bc1;
-    font-size: 15px;
+    font-size: 17px;
     font-family: verdana;
     margin-left: auto;
     margin-right: auto;
@@ -90,6 +90,8 @@ img {
     box-shadow: -3px 3px 0 grey;
     padding-top: 5px;
     padding-bottom: 5px;
+    height: 50px;
+    width: 700px;
 }
 .download:hover {
     top: 3px;
@@ -123,16 +125,17 @@ h2 {
 h3 {
     font-size: 20px;
     text-align: center;
+    color: lightblue;
 }
 hr {
     border-top: 3px solid black;
     border-bottom: 3px solid white;
-    width: 200px;
+    width: 300px;
     display: block;
 }
 p {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 22px;
 }
 nav {
 	margin: 25px auto;
@@ -213,7 +216,6 @@ ul {
     margin: 2;
     padding: 10px;
     border-radius: 12px;
-    font-size: 15px;
 }
 li {
     padding-bottom: .5em;
@@ -233,6 +235,7 @@ li {
     max-height: 0;
     width: 350px;
     overflow: scroll;
+    font-size: 20px;
 }
 .column2 a {
     display: block;
@@ -288,19 +291,24 @@ li {
     margin: auto;
 }
 .prev, .next {
-    cursor: pointer;
+    cursor: grab;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
+    height: 90px;
     padding: 16px;
     margin-top: -22px;
-    color: black;
-    background-color: lightgray;
+    color: lightblue;
+    background-color: gray;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 50px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    opacity: .8;
+    align-content: center;
+    text-align: center;
+    
 }
 
 /* Position "next button" to right */
@@ -310,20 +318,22 @@ li {
 }
 
 .prev:hover, .next:hover {
-  background-color: gray;
+  background-color: lightgray;
   color: lightblue;
 }
 
 .numbertext {
-  color: lightblue;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: lightblue;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: gray;
+    opacity: .8;
 }
 
 .dot {
-  cursor:pointer;
+  cursor:grab;
   height: 13px;
   width: 13px;
   margin: 5px 5px;
@@ -353,6 +363,19 @@ li {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 .mySlides {
     display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="column3"] {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="menu"] {
+        width: 100%;
+    }
 }

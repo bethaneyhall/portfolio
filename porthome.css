@@ -303,9 +303,9 @@ li {
     width: 80%;
 }
 .display-container {
-    max-width: 800px;
     position: relative;
     margin: auto;
+    width: auto;
 }
 .prev, .next {
     cursor: grab;

@@ -43,7 +43,6 @@ footer {
 .direct {
     background-color: #ac4a4a;
     border-radius: 20px;
-    color: white;
     display: inline-block;
     font-size: 14px;
     text-align: center;
@@ -238,8 +237,7 @@ span {
     color: #2BD6B4;
 }
 a:link, a:visited {
-    color: white;
-    text-decoration: none;
+    text-decoration:none;
 }
 a:hover, a:active {
     text-decoration: underline;
@@ -409,7 +407,6 @@ li {
         width:100%;
     }
 }
-
 @media only screen and (max-width: 768px) {
     [class*="menu"] {
         width: 100%;
@@ -421,7 +418,6 @@ li {
         width:100%;
     }
 }
-
 @media only screen and (max-width: 768px) {
     [class*="resume1"] {
         width: 100%;

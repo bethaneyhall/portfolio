@@ -218,6 +218,11 @@ nav .start-home, a:nth-child(1):hover~.animation {
 	left: 0;
 	background-color: #1abc9c;
 }
+@media only screen and (max-width: 768px) {
+    .animation {
+        display: none;
+    }
+}
 nav .start-projects, a:nth-child(2):hover~.animation {
 	width: 120px;
 	left: 120px;

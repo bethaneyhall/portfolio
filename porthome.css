@@ -237,11 +237,15 @@ ul {
 li {
     padding-bottom: .5em;
 }
-.column {
+.resume1 {
     width: 50%;
     padding: 15px;
 }
-.column2 {
+.resume2 {
+    width: 50%;
+    padding: 15px;
+}
+.toc {
     background-color: #34495e;
     border-radius: 10px;
     font-family: Verdana;
@@ -254,7 +258,7 @@ li {
     overflow: scroll;
     font-size: 16px;
 }
-.column2 a {
+.toc a {
     display: block;
     width: 100%;
 }
@@ -298,7 +302,7 @@ li {
     box-shadow: #a8d3e6 0 2px 4px,#a8d3e6 0 7px 13px -3px,#a8d3e6 0 -3px 0 inset;
     transform: translateY(2px);
 }
-.column3 {
+.writings {
     padding: 25px;
     width: 80%;
 }
@@ -393,6 +397,18 @@ li {
 
 @media only screen and (max-width: 768px) {
     [class*="menu"] {
+        width: 100%;
+        position: static;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*="resume2"] {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="resume1"] {
         width: 100%;
         position: static;
     }

@@ -244,8 +244,7 @@ a:link {
     color: white;
 }
 a:visited {
-    color: skyblue;
-    text-decoration: underline;
+    color: black;
 }
 a:hover {
     text-decoration: underline;

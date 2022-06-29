@@ -82,7 +82,7 @@ footer {
     color: black;
 }
 .downloadresume {
-    background-color:transparent;
+    background-color:black;
     border-radius: 20px;
     display: block;
     font-size: 14px;
@@ -107,7 +107,7 @@ footer {
     transform: translateY(2px);
 }
 .guide {
-    background-color:transparent;
+    background-color:black;
     border-radius: 20px;
     color: black;
     display: block;
@@ -242,9 +242,11 @@ span {
 }
 a:link {
     color: white;
+    text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: plum;
+    text-decoration: line-through;
 }
 a:hover {
     text-decoration: underline;

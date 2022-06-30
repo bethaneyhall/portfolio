@@ -246,7 +246,7 @@ a:link {
 }
 a:visited {
     color: plum;
-    text-decoration: line-through;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;

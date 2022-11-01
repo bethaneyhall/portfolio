@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beth Hall</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css"> 
+</head>
+<body>
+
+<ul class="topnav">
+<div class="leftnav">
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="projects.html">Projects</a></li>
+    <li><a href="writings.html">Writings</a></li>
+    <li><a href="resume.html">Resume</a></li></div>
+    
+    <li class="right" style="margin:2px;"><a href="mailto:bethaneyhall2@gmail.com" class="navbutton"><span class="topspan">X</span></a></li>
+    
+    <li class="right" style="margin:2px;"><a href="https://www.linkedin.com/in/bethaney-hall" target="_blank" class="navbutton"><span class="topspan">X</span></a></li>
+    
+    <li class="right" style="margin:10px;"><label class="switch" onclick="myFunction()" checked><input type="checkbox" checked style="position:inherit;width: 50px;height:40px;" onclick="myFunction()"><span class="slider round"></span></label></li>
+</ul>
+  
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+    
+<h2>E-Resources Usage Statistics During Covid-19</h2>
+<img src="FSU_SSN.jpg" alt ="Slide 1 of PowerPoint" style="max-width: 100%;height:auto;border: 5px solid black;">
+<p>The above presentation was given in front of the Scholarly Support Network at Florida State University Libraries. The occasion was meant to inform library faculty and staff why usage statistics are important and how they were affected by the COVID-19 pandemic. Contact me for slides.</p>  
+<hr>
+
+    <h2>FSU Electronic Resource LibGuides</h2>
+<div id="slideshow1" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="covidlibguide1.png" style="width:100%">
+  <div class="text">Temporary Access to Electronic Resources During COVID-19</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="gs1.png" style="width:100%;">
+  <div class="text">Google Scholar LibGuide</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="foundationfund.png" style="width:100%">
+  <div class="text">Foundation Fund Collections LibGuide</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow1)"></span> 
+</div>
+</div>
+<p>Set of LibGuides I published while working at FSU Libraries.</p>  
+    
+    <script>
+    var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+
+
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+    </script>
+<hr>
+    
+<h2>LGBTQ+ Graphic Novels Resource Guide</h2>
+<img src="guidesnapshot.png" alt ="snapshot of LGBTQ+ resource guide" class="guidesnap">
+<button class= "guide"><a href="LGBTQ_ResourceGuide.pdf" target="_blank">click to download or view guide</a></button>
+<p style="padding-top: 1px; text-align: center;">The LGBTQ+ Resource Guide is intended to assist readers in finding an LGBTQ+ graphic novel. The complete reading list can be found on PDF page 6. Download it if you'd like!</p>
+<hr>
+    
+<h2>UAB Electronic Resources LibGuide</h2>
+<iframe src="https://guides.library.uab.edu/c.php?g=1250611&p=9156014" style="max-width: 100%;border: 5px solid black;">Electronic Resources at UAB Libraries</iframe>
+<p style="text-align: center;">The Electronic Resources LibGuide is meant to assist library patrons at University of Alabama at Birmingham with locating, accessing, and troubleshooting e-resources.</p>
+<hr>
+    <footer></footer>
+    </body>
+</html>

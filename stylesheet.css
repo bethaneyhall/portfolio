@@ -59,6 +59,7 @@ span {
   display: inline-block;
   width: 60px;
   height: 34px;
+    margin-top: 5px;
 }
 
 .switch input { 
@@ -173,29 +174,38 @@ ul.welcome {
 }
 
 .topspan {
-    font-size:15pt;
+    font-size:20pt;
     align-content: center;
     text-align: center;
-    box-shadow: 0px 5px 5px 0px black;
-    background:linear-gradient(whitesmoke, grey);
     color: black;
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.17);
     padding-top:9px;
     padding-bottom:9px;
     padding-left:15px;
     padding-right:15px;
-    transition: .3s;
+    box-shadow: black 0 1px 3px 0;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
 }
 
-.topspan:hover{
-    transition: .3s;
-    background: linear-gradient(grey, dimgray);
+.topspan:hover, .topspan:focus{
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: mediumpurple;
+}
+
+.topnav:hover{
+    transform: translateY(-1px);
 }
 
 .topspan:active{
-    color:blue;
-    transform: translateY(4px);
-    box-shadow: 0px 2px 2px 0px whitesmoke;
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 600px) {

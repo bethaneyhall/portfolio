@@ -170,14 +170,15 @@ ul.welcome {
     padding-left: 0;
 }
 .smiley {
-    font-size:40pt;
+    font-size:30pt;
 }
 
 .topspan {
     font-size:20pt;
     align-content: center;
     text-align: center;
-    color: black;
+    background: #333333;
+    color: #ffffff;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.17);
     padding-top:9px;
@@ -191,9 +192,10 @@ ul.welcome {
 }
 
 .topspan:hover, .topspan:focus{
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: mediumpurple;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: mediumpurple 0 4px 12px;
+    color: mediumpurple;
+    background-color: white;
 }
 
 .topnav:hover{
@@ -201,10 +203,10 @@ ul.welcome {
 }
 
 .topspan:active{
-  background-color: #F0F0F1;
+  background-color: black;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
+  color: mediumpurple;
   transform: translateY(0);
 }
 
@@ -230,8 +232,8 @@ input[type="checkbox"] {
 }
 
 .welcomeglow {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background: transparent;
     color: #555;
     display:inline-flex;

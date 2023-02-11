@@ -327,3 +327,29 @@ input[type="checkbox"]{
     line-height: 1.5;
     color: white;
 }
+.downloadguide {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    background-color: magenta;
+    box-shadow: 5px 5px whitesmoke;
+}
+.downloadguide:hover {
+    box-shadow: 2px 2px whitesmoke;
+    transform: translateY(3px);
+}
+.downloadguide:active {
+    box-shadow: none;
+}
+a.guidelink:link {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 2pt;
+}
+a.guidelink:hover {
+    color: whitesmoke;
+}
+a.guidelink:active {
+    color: whitesmoke;
+}

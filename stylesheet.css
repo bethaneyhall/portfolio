@@ -1,8 +1,8 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: monospace;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
 }
 body {
     font-family: monospace;
@@ -225,6 +225,7 @@ input[type="checkbox"]{
     margin-bottom: 15px;
     background-color: magenta;
     box-shadow: 7px 7px whitesmoke;
+	padding: 10px;
 }
 #active:checked ~ .wrapper ul li a{
   opacity: 1;

@@ -163,7 +163,7 @@ a.contact:active {
   transition: transform 0.3s ease;
 }
 .wrapper ul li a:hover{
-    color: greenyellow;
+    color: limegreen;
     text-decoration: underline;
 }
 input[type="checkbox"]{

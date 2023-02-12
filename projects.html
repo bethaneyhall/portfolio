@@ -32,11 +32,73 @@
      <br>
 <h3>LGBTQ+ Graphic Novels Resource Guide</h3>
      <br>
-     <iframe src="guide.png" alt ="LGBTQ+ Graphic Novels Resource Guide" style="width:545pt;max-width: 100%;height:800px;border: 5px solid black;margin-left: auto; margin-right: auto"></iframe>
-<p>The LGBTQ+ Resource Guide is intended to assist readers in finding an LGBTQ+ graphic novel. Above is an image preview; download the full resource guide below.
+     <iframe src="guide.png" alt="LGBTQ+ Graphic Novels Resource Guide" style="width:545pt;max-width: 100%;height:800px;border: 5px solid black;margin-left: auto; margin-right: auto"></iframe>
+<p>The LGBTQ+ Resource Guide is intended to assist readers in finding an LGBTQ+ graphic novel. Above is an image preview. Download the full resource guide below.
      <br>
     <button class="downloadguide" alt="download PDF resource guide"><a href="LGBTQ_ResourceGuide.pdf" target="_blank" class="guidelink">Download PDF guide</a></button></p>
 <br>
+<h3>Florida State University LibGuides</h3>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="covidlibguide1.png" style="width:100%">
+  <div class="text">Temporary Access to E-Resources During COVID-19</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="gs1.png" style="width:100%">
+  <div class="text">Google Scholar LibGuide</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="foundationfund.png" style="width:100%">
+  <div class="text">FSU Foundation Fund Resources</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<p>The above slideshow consists of three SpringShare LibGuides I made while working at Florida State University Libraries.</p>
 </div>
 <footer></footer>
     </body>

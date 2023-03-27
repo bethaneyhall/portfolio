@@ -376,6 +376,32 @@ a.guidelink:hover {
 a.guidelink:active {
     color: whitesmoke;
 }
+.downloadresume {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 12pt;
+    background-color: yellow;
+    box-shadow: 5px 5px whitesmoke;
+}
+.downloadresume:hover {
+    box-shadow: 2px 2px whitesmoke;
+    transform: translateY(3px);
+}
+.downloadresume:active {
+    box-shadow: none;
+}
+a.resume:link {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 2pt;
+}
+a.resumelink:hover {
+    color: whitesmoke;
+}
+a.resumelink:active {
+    color: whitesmoke;
+}
 .mySlides {
     display: none;
 }

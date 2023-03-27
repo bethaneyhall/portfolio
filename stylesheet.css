@@ -371,16 +371,16 @@ a.guidelink:link {
     letter-spacing: 2pt;
 }
 a.guidelink:hover {
-    color: whitesmoke;
+    color: blue;
 }
 a.guidelink:active {
-    color: whitesmoke;
+    color: blue;
 }
 .downloadresume {
     margin-top: 20px;
     padding: 5px;
     font-size: 12pt;
-    background-color: red;
+    background-color: yellow;
     box-shadow: 5px 5px whitesmoke;
 }
 .downloadresume:hover {

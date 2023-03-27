@@ -397,10 +397,10 @@ a.resumelink:link {
     letter-spacing: 2pt;
 }
 a.resumelink:hover {
-    color: whitesmoke;
+    color: blue;
 }
 a.resumelink:active {
-    color: whitesmoke;
+    color: blue;
 }
 .mySlides {
     display: none;

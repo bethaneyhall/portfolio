@@ -390,7 +390,7 @@ a.guidelink:active {
 .downloadresume:active {
     box-shadow: none;
 }
-a.resume:link {
+a.resumelink:link {
     text-decoration: none;
     color: black;
     font-family: sans-serif;

@@ -380,7 +380,7 @@ a.guidelink:active {
     margin-top: 20px;
     padding: 5px;
     font-size: 12pt;
-    background-color: yellow;
+    background-color: red;
     box-shadow: 5px 5px whitesmoke;
 }
 .downloadresume:hover {

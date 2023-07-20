@@ -26,10 +26,9 @@ h3 {
     font-size: 16pt;
     color: white;
     background-color: mediumpurple;
-    padding: 15px;
+    padding: 10px;
     border: none;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 10px;
 }
 h4 {
     color: white;
@@ -292,7 +291,7 @@ input[type="checkbox"]{
     transform: translateY(5px);
     box-shadow: 0px 5px 10px whitesmoke, 0px -5px 10px whitesmoke, inset 0px -2px 5px whitesmoke, inset 0px 2px 5px whitesmoke;
 }
-#myBtn {
+#top {
     display: none;
     position: fixed;
     bottom: 20px; 
@@ -314,7 +313,7 @@ input[type="checkbox"]{
     width:auto;
 }
 
-#myBtn:hover {
+#top:hover {
     background-color: #555;
 }
 .column {
@@ -351,55 +350,97 @@ input[type="checkbox"]{
     padding-left: 35px;
 }
 .downloadguide {
-    margin-top: 20px;
-    padding: 5px;
-    font-size: 12pt;
-    background-color: yellow;
-    box-shadow: 5px 5px whitesmoke;
+    appearance: button;
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+}
+.downloadguide:focus {
+    text-decoration: none;
 }
 .downloadguide:hover {
-    box-shadow: 2px 2px whitesmoke;
-    transform: translateY(3px);
+    text-decoration: none;
+    background-color: #7fc4db;
 }
 .downloadguide:active {
-    box-shadow: none;
+  box-shadow: rgba(0, 0, 0, .125) 0 2px 4px inset;
+    background-color: #7fc4db;
+}
+.downloadguide:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 a.guidelink:link {
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
-    letter-spacing: 2pt;
 }
 a.guidelink:hover {
-    color: blue;
+    text-decoration: none;
+    color:blue;
 }
 a.guidelink:active {
+    text-decoration: none;
     color: blue;
 }
 .downloadresume {
-    margin-top: 20px;
-    padding: 5px;
-    font-size: 12pt;
-    background-color: yellow;
-    box-shadow: 5px 5px whitesmoke;
+    appearance: button;
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+}
+.downloadresume:focus {
+    text-decoration: none;
 }
 .downloadresume:hover {
-    box-shadow: 2px 2px whitesmoke;
-    transform: translateY(3px);
+    text-decoration: none;
+    background-color: #7fc4db;
 }
 .downloadresume:active {
-    box-shadow: none;
+  box-shadow: rgba(0, 0, 0, .125) 0 2px 4px inset;
+    background-color: #7fc4db;
+}
+.downloadresume:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 a.resumelink:link {
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
-    letter-spacing: 2pt;
 }
 a.resumelink:hover {
-    color: blue;
+    text-decoration: none;
+    color:blue;
 }
 a.resumelink:active {
+    text-decoration: none;
     color: blue;
 }
 .mySlides {

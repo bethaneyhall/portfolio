@@ -40,6 +40,8 @@ h4 {
 hr {
     border: solid 3px red;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 a.toc:link {
     text-decoration: none;
@@ -266,7 +268,7 @@ input[type="checkbox"]{
     border: none;
     border-radius: 50px;
     align-content: center;
-    box-shadow: 0px 10px 20px #57aba7, 0px -10px 20px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    box-shadow: 0px 10px 20px #30c1f2, 0px -10px 20px #6bd2f5, inset 0px -5px 10px #30c1f2, inset 0px 5px 10px #6bd2f5;
 }
 .mail:hover {
     border: solid 2px whitesmoke;
@@ -285,7 +287,7 @@ input[type="checkbox"]{
     border: none;
     border-radius: 50px;
     align-content: center;
-    box-shadow: 0px 10px 20px #57aba7, 0px -10px 20px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    box-shadow: 0px 10px 20px #30c1f2, 0px -10px 20px #6bd2f5, inset 0px -5px 10px #30c1f2, inset 0px 5px 10px #6bd2f5;
 }
 .linkedin:hover {
     border: solid 2px whitesmoke;

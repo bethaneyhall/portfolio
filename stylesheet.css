@@ -521,36 +521,61 @@ img {
     .prev, .next,.text {font-size: 11px}
 }
 .collapsible {
-  background-color: darkseagreen;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 18px;
+    background-color: darkseagreen;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
 }
 
 .active, .collapsible:hover {
-  background-color: darkgreen;
+    background-color: darkgreen;
 }
 
 .collapsible:after {
-  content: '\002B';
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-  content: "\2212";
+    content: "\2212";
 }
 
 .content2 {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .5s ease-out;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-out;
 }
+.skillbar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.reference {width: 100%; background-color: green;}
+.ux {width: 80%; background-color: green;}
+.research {width: 70%; background-color: green;}
+.acquisitions {width: 70%; background-color: green;}
+.metadata {width: 60%; background-color: green;}
+.systems {width: 70%; background-color: green;}
+.css {width: 90%; background-color: green;}
+.html {width:100%; background-color: green;}
+.php {width: 90%; background-color: green;}
+.java {width:50%; background-color: green;}
+
 </style>

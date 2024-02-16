@@ -405,6 +405,9 @@ a.resumelink:active {
 .mySlides {
     display: none;
 }
+.mySlides2 {
+    display: none;
+}
 img {
     vertical-align: middle;
 }
@@ -486,6 +489,7 @@ img {
     outline: none;
     font-size: 18px;
     margin: 10px;
+    transition: .5s ease-out;
 }
 
 .active, .collapsible:hover {
@@ -495,7 +499,6 @@ img {
 }
 
 .collapsible:after {
-    content: "↓";
     float: right;
     margin-left: 5px;
     font-size: 17pt;
@@ -503,7 +506,6 @@ img {
 }
 
 .active:after {
-    content: "↑";
     font-size: 17pt;
     color: black;
 }
@@ -513,6 +515,22 @@ img {
     max-height: 0;
     overflow: hidden;
     transition: max-height .5s ease-out;
+}
+.librarymobile {
+    width: 100%;
+    max-width: 70%;
+}
+.uabguide {
+    width: 100%;
+    max-width: 60%;
+}
+.app {
+    width: 100%;
+    max-width: 60%;
+}
+.apphome {
+    width: 100%;
+    max-width: 20%;
 }
 .skillbar {
     width: 100%;

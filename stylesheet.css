@@ -241,7 +241,7 @@ input[type="checkbox"]{
 .line__2 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
   animation: animated-text__2 1s steps(10, end) 1s 1 normal both,
-    animated-cursor__2 300ms steps(5, end) infinite;
+    animated-cursor__2 900ms steps(10, end) infinite;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }

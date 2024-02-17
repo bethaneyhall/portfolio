@@ -235,7 +235,7 @@ input[type="checkbox"]{
 .line__1 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
   animation: animated-text__1 1s steps(10, end) 1s 1 normal both,
-    animated-cursor__1 300ms steps(5, end) 2;
+    animated-cursor__1 500ms steps(10, end) 2;
 }
 
 .line__2 {
@@ -304,7 +304,7 @@ input[type="checkbox"]{
     border: none;
     border-radius: 50px;
     align-content: center;
-    box-shadow: 0px 10px 20px #30c1f2, 0px -10px 20px #6bd2f5, inset 0px -5px 10px #30c1f2, inset 0px 5px 10px #6bd2f5;
+    box-shadow: 0px 0px 29px 0px rgb(45, 190, 255);
 }
 .mail:hover {
     border: solid 2px whitesmoke;
@@ -323,7 +323,7 @@ input[type="checkbox"]{
     border: none;
     border-radius: 50px;
     align-content: center;
-    box-shadow: 0px 10px 20px #30c1f2, 0px -10px 20px #6bd2f5, inset 0px -5px 10px #30c1f2, inset 0px 5px 10px #6bd2f5;
+    box-shadow: 0px 0px 29px 0px rgb(45, 190, 255);
 }
 .linkedin:hover {
     border: solid 2px whitesmoke;

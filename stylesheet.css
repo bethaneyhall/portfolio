@@ -8,13 +8,16 @@ body {
     font-family: monospace;
     text-align: center;
     align-content: center;
-    margin: 50px;
+    margin: 10px;
     background-color: black;
 }
 p {
     font-size: 14pt;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 h2 {
     font-size: 20pt;
@@ -281,7 +284,6 @@ input[type="checkbox"]{
     width: 29rem;
   }
 }
-
 #active:checked ~ .wrapper ul li a{
     opacity: 1;
 }
@@ -552,23 +554,13 @@ img {
     overflow: hidden;
     transition: max-height .5s ease-out;
 }
-.librarymobile {
-    width: 100%;
-    max-width: 70%;
-}
+
 .uabguide {
     width: 100%;
     max-width: 80%;
-    height: 900px;
+    height: 800px;
 }
-.app {
-    width: 100%;
-    max-width: 60%;
-}
-.apphome {
-    width: 100%;
-    max-width: 20%;
-}
+
 .skillbar {
     width: 100%;
     border: 2px solid white;

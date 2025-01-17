@@ -576,6 +576,12 @@ img {
     height: 800px;
 }
 
+.docs {
+    width: 100%;
+    max-width: 80%;
+    height: 800px;
+}
+
 .skillbar {
     width: 100%;
     border: 2px solid white;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beth Hall</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css"> 
+</head>
+<body>
+ <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="documentations.html">Documentations</a></li>
+<li><a href="writings.html">Writings</a></li>
+<li><a href="resume.html">Resume</a></li>
+</ul>
+</div>
+<div class="content1">
+    
+<button onclick="topFunction()" id="top" title="Go to top">^</button>
+
+<script>
+let mybutton = document.getElementById("top");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <h2>Documentations</h2>
+    <p>(Professional)</p>
+<h3>Table of Contents</h3>
+<ul style="font-size:12pt;font-family:helvetica, sans-serif; list-style-type: none">
+   <li style="padding:10px;"><a class ="toc" href="#toc1">Doc1</a></li>
+    <li style="padding:10px;"><a class ="toc" href="#toc2">Doc2</a></li>
+   <li style="padding:10px;"><a class="toc" href="#toc3">Doc3</a></li>
+</ul>
+
+<h3 id="toc1">Document 1</h3>
+<p>
+Text
+<br>
+</p>
+<h3 id="toc2">Document 2</h3>
+<p>
+Text
+<br>
+</p>
+<h3 id="toc3">Document 3</h3>
+<p>
+Text
+<br>
+</p>
+    </div>
+ 
+<footer></footer>
+</body>
+</html>

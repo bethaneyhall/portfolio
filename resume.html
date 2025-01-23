@@ -19,6 +19,29 @@
 </ul>
 </div>
 <div class="content1">
+    
+<button onclick="topFunction()" id="top" title="Go to top">^</button>
+
+<script>
+
+let mybutton = document.getElementById("top");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+    
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
     <h2>Resume</h2>
  <br>
   <button class="downloadresume" alt="download PDF resource guide" style="margin-bottom: 20pt;"><a href="resume.pdf" target="_blank" class="resumelink">DOWNLOAD RESUME</a></button>

@@ -692,8 +692,17 @@ img {
 
 .uabguide {
     width: 77%;
-    max-width: 80%;
     height: 700px;
+}
+
+a.uabguide:link {
+    color:lightblue;
+    text-decoration: underline;
+}
+
+a.uabguide:hover {
+    color:white;
+    text-decoration: underline;
 }
 
 .skillbar {

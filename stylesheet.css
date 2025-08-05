@@ -35,16 +35,17 @@ h3 {
     background-color: mediumpurple;
     padding: 10px;
     border: none;
-    margin: 30px;
+    margin: 20px;
 }
 
 h4 {
     color: white;
     font-size: 15pt;
-    border: solid red 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin: 10px;
+}
+
+.redoutline {
+    border: solid red 2px;
 }
 
 hr {
